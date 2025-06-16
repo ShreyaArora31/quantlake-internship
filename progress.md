@@ -23,10 +23,10 @@ A collection of basic Python functions demonstrating core programming concepts, 
 
 ### My Workflow
 
-1. First, I created a repository on my github account and cloned the empty repository onto my local computer.
-2. I installed python 3.13.3, anaconda 24.11.2. With the help of anaconda prompt shell, I opened the file of my repository with the help of Jupyter notebook.
-3. I wrote my code on my notebook created and the code was simultaneously saved in my local system.
-4. At last, I committed all the changes to my github repository using git commands - add, commit, push.
+1. Firstly, I made a new folder on my local computer in order to open the project through VS Code. Then, I created a repository named quantlake-internship on my github account and cloned the empty repository onto my local computer folder.
+2. I installed python 3.13.3, anaconda 24.11.2. With the help of anaconda prompt shell, I opened the file of my repository on Jupyter notebook.
+3. I wrote my code on my notebook which I created and the code was simultaneously saving in my local system.
+4. At last, I committed all the changes to my github repository using git commands - add, commit, push with the help of VS Code.
 
 ### ✨ Learning Outcomes
 
@@ -35,7 +35,7 @@ A collection of basic Python functions demonstrating core programming concepts, 
 - Python syntax fundamentals
 - Notebook-based development
 My key learnings were -
-1. How to use jupyter notebook through anaconda and write python codes on it.
+1. How to use jupyter notebook through anaconda, open local folders, create notebooks and write python codes on it.
 
 ### Installation
 
