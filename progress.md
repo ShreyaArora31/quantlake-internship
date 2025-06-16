@@ -37,6 +37,7 @@ A collection of basic Python functions demonstrating core programming concepts, 
 
 My key learnings were -
 1. How to use jupyter notebook through anaconda, open local folders, create notebooks and write python codes on it.
+2. How to use Markdowns in notebooks.
 
 ### Installation
 
