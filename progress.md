@@ -34,6 +34,8 @@ A collection of basic Python functions demonstrating core programming concepts, 
 - Git workflow (`clone`, `add`, `commit`, `push`)
 - Python syntax fundamentals
 - Notebook-based development
+My key learnings were -
+1. How to use jupyter notebook through anaconda and write python codes on it.
 
 ### Installation
 
