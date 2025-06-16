@@ -34,6 +34,7 @@ A collection of basic Python functions demonstrating core programming concepts, 
 - Git workflow (`clone`, `add`, `commit`, `push`)
 - Python syntax fundamentals
 - Notebook-based development
+
 My key learnings were -
 1. How to use jupyter notebook through anaconda, open local folders, create notebooks and write python codes on it.
 
@@ -41,5 +42,5 @@ My key learnings were -
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/python-basics.git
+   git clone https://github.com/ShreyaArora31/quantlake-internship.git
    ```
