@@ -2,16 +2,6 @@
 
 This repo documents my daily learning, tasks and projects throughout the internship.
 
-### 🚀 Internship Overview
-
-- **Company:** QuantLake  
-- **Role:** Data Analyst Intern  
-- **Duration:** June 16 – July 31, 2025  
-- **Structure:**
-  - 📘 *Phase 1:* Learning (Python, SQL, Excel, Visualization)
-  - 💼 *Phase 2:* Real-world projects guided by mentors
-
-
 ### 📁 Repository Structure
 
 ```
