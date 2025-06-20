@@ -1,6 +1,6 @@
 # ✨ QuantLake Data Analyst Internship - Summer 2025
 
-This repo documents my daily learning, tasks, and projects throughout the internship.
+This repo documents my daily learning, tasks and projects throughout the internship.
 
 ### 📁 Repository Structure
 
@@ -9,6 +9,7 @@ quantlake-internship/
 │
 ├── training/               # Daily practice notebooks
 │   └── day1_python_basics.ipynb
+|   └── day2_python_fundamentals.ipynb
 │
 ├── projects/               # Project work during the internship
 │
@@ -16,6 +17,7 @@ quantlake-internship/
 ```
 
 ### 🛠️ Technologies Used
+
 **Language:** Python 3.13.3
 **Notebook:** Jupyter
 **Version Control:** Git, GitHub
