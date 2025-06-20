@@ -47,7 +47,7 @@ My key learnings were -
 - **Jupyter Notebook using Anaconda**
 - **Version Control:** Git (local) and GitHub (remote)
 
-### 📂 File Added:
+### 📂 Files Added:
 
 - `training/day2_python_fundamentals.ipynb`
 - Updated `progress.md`
@@ -93,7 +93,7 @@ My key learnings were -
   - Largest number in a list
   - String reversal
 
-### Learnings:
+### 📚 Learnings:
 
 - Strengthened understanding of core Python data structures
 - Learned how to write reusable functions
