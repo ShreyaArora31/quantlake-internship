@@ -40,19 +40,19 @@ My key learnings were -
 
 ## 📆 Day 2 - Python Fundamentals - 19th June
 
-**Environment Used:**
+### Environment Used:
 
 - **Python:** 3.13.3
 - **Anaconda:** 24.11.2
 - **Jupyter Notebook using Anaconda**
 - **Version Control:** Git (local) and GitHub (remote)
 
-**📂 File Added:**
+### 📂 File Added:
 
 - `training/day2_python_fundamentals.ipynb`
 - Updated `progress.md`
 
-### ✅ Tasks Completed:
+### Tasks Completed:
 
 **🔹 Task 1: Data Structures Deep Dive**
 
@@ -93,7 +93,7 @@ My key learnings were -
   - Largest number in a list
   - String reversal
 
-### 📚 Learnings:
+### Learnings:
 
 - Strengthened understanding of core Python data structures
 - Learned how to write reusable functions
@@ -101,7 +101,7 @@ My key learnings were -
 - Practiced handling common runtime exceptions
 - Improved logical thinking with small coding tasks
 
-### 🚧 Challenges Faced:
+### Challenges Faced:
 
 - Misused set() on nested lists which caused a TypeError
 
