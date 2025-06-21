@@ -109,3 +109,73 @@ My key learnings were -
 
 - Confident with core Python features
 - GitHub now contains a well-structured log of Day 1 and Day 2 progress
+
+## 📆 Day 3 - Pandas Fundamentals - 20th June
+
+### Environment Used:
+- **Python**: 3.13.3
+- **Pandas**: 2.1.4
+- **Jupyter Notebook** via Anaconda
+- **Dataset**: Iris dataset from scikit-learn
+
+### Files Added:
+- `training/day3_pandas_intro.ipynb`
+- Updated `progress.md`
+
+### Tasks Completed:
+
+**🔹 Task 1: Pandas Data Structures**
+- Created Series and DataFrames from scratch
+- Learned:
+  - Difference between Series (1D) and DataFrames (2D)
+  - How to construct them from lists/dictionaries
+  - Importance of indexes in Pandas
+
+**🔹 Task 2: Data Loading & Inspection**
+- Loaded Iris dataset using scikit-learn
+- Used key inspection methods:
+  - `.info()` - showed 150 rows × 5 columns
+  - `.describe()` - revealed stats (mean sepal length: 5.84cm)
+  - `.isnull().sum()` - confirmed no missing values
+  - `.dtypes` - identified float64 measurements and object type species
+
+**🔹 Task 3: Data Access & Manipulation**
+- Practiced:
+  - Column selection: `df['col']` vs `df[['col1','col2']]`
+  - Label vs position access: `.loc[]` and `.iloc[]`
+  - Added calculated column (sepal area)
+  - Dropped columns/rows with `.drop()`
+
+**🔹 Task 4: Built-in Methods**
+- Applied:
+  - `.sort_values()` - ordered flowers by sepal length
+  - `.value_counts()` - showed 50 flowers per species
+  - `.unique()` - identified 3 species types
+  - Statistical methods (`.mean()`, `.max()`, etc.)
+
+### Key Observations/Learnings:
+1. **Data Structure Understanding**:
+   - Series = Enhanced 1D array
+   - DataFrame = Tabular 2D structure with heterogenous columns
+
+2. **Real-world Data Handling**:
+   - Automatic alignment by index/labels
+   - Missing value handling in statistical methods
+   - Vectorized operations (no loops needed)
+
+3. **Notebook Documentation**:
+   - Used Markdown headers and bullet points
+   - Added clear explanations for each code block
+   - Included example outputs
+
+### Challenges Faced:
+- Initially confused `.loc[]` (label-based) with `.iloc[]` (position-based)
+- Had to experiment with `axis` parameter in `.drop()`
+
+### Outcome:
+- Confident with Pandas' core data structures
+- Can load, inspect, and clean tabular data
+- Notebook ready for GitHub with:
+  - Clear section headers
+  - Explanatory comments
+  - Example outputs
