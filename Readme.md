@@ -9,7 +9,7 @@ quantlake-internship/
 │
 ├── training/               # Daily practice notebooks
 │   └── day1_python_basics.ipynb
-|   └── day2_python_fundamentals.ipynb
+|   └── day2_python_fundamentals.ipynb 
 │
 ├── projects/               # Project work during the internship
 │
