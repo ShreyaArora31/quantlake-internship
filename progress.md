@@ -47,7 +47,7 @@ My key learnings were -
 - **Jupyter Notebook using Anaconda**
 - **Version Control:** Git (local) and GitHub (remote)
 
-### 📂 Files Added:
+### Files Added:
 
 - `training/day2_python_fundamentals.ipynb`
 - Updated `progress.md`
@@ -93,7 +93,7 @@ My key learnings were -
   - Largest number in a list
   - String reversal
 
-### 📚 Learnings:
+### Learnings:
 
 - Strengthened understanding of core Python data structures
 - Learned how to write reusable functions
@@ -105,7 +105,7 @@ My key learnings were -
 
 - Misused set() on nested lists which caused a TypeError
 
-### 🌟 Outcome:
+### Outcome:
 
 - Confident with core Python features
 - GitHub now contains a well-structured log of Day 1 and Day 2 progress
