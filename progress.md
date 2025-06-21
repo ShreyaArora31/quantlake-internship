@@ -14,7 +14,7 @@ A collection of basic Python functions demonstrating core programming concepts, 
   - GitHub for repository hosting
   - Anaconda installed for environment management
 
-### Basic Python Functions:
+### Basic Python Topics:
 
 - Variable and Data Types
 - Conditional statements
