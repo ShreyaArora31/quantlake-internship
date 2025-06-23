@@ -11,6 +11,7 @@ quantlake-internship/
 │   └── day1_python_basics.ipynb
 |   └── day2_python_fundamentals.ipynb
 |   └── day3_pandas_intro.ipynb
+|   └── day4_data_manipulation_1.ipynb
 │
 ├── projects/               # Project work during the internship
 │
