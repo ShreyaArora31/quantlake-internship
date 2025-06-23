@@ -190,3 +190,91 @@ My key learnings were -
   - Clear section headers
   - Explanatory comments
   - Example outputs
+
+## 📆 Day 4 - Pandas: Data Manipulation I - 23rd June
+
+### Environment Used:
+
+- **Python:** 3.13.3
+- **Pandas:** 2.1.4
+- **Jupyter Notebook:** using Anaconda
+- **Dataset:** [Superstore Sales Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+### Files Added:
+
+- `training/day4_data_manipulation_1.ipynb`
+- Updated `progress.md`
+
+### Tasks Completed:
+
+**🔹 Task 1: Indexing and Slicing**
+
+- Mastered data access methods:
+  - Label-based selection with `.loc[]`
+  - Position-based selection with `.iloc[]`
+  - Conditional filtering (e.g., `df[df['Sales'] > 500]`)
+- Key learning: Difference between view vs copy when slicing
+
+**🔹 Task 2: Filtering & Sorting**
+
+- Applied Boolean filters with multiple conditions (`&`, `|`)
+- Sorted data using:
+  - Single column: `sort_values('Profit')`
+  - Multiple columns: `sort_values(by=['Region', 'Sales'])`
+
+**🔹 Task 3: Handling Missing Data**
+
+- Identified nulls with `isnull().sum()`
+- Practiced:
+  - Dropping: `dropna()`
+  - Filling: `fillna()` (mean, ffill/bfill)
+  - Created test DataFrames with `np.nan`
+- Learned: FutureWarning fix for `fillna(method=...)`
+
+**🔹 Task 4: GroupBy Operations**
+
+- Performed aggregations:
+  - Basic: `groupby('Category').mean()`
+  - Advanced: `agg(['sum', 'mean', 'count'])`
+- Used `reset_index()` to clean grouped results
+- Discovered: Multi-level grouping (Region + Category)
+
+**🔹 Task 5: Merging DataFrames**
+
+- Simulated real-world scenario by splitting dataset
+- Practiced join types:
+  - Inner, left, and outer joins
+
+### Key Observations/Learnings:
+
+1. **Data Manipulation**:
+
+   - Importance of proper indexing for performance
+   - How joins affect dataset size (cardinality)
+   - Vectorized operations vs iterative approaches
+
+2. **Real-world Applications**:
+
+   - Handling messy retail data (nulls, mixed types)
+   - Business questions answered through grouping
+   - Merging transactional and reference data
+
+3. **Methods Practiced**:
+   - **Selection:** Learnt .loc[] (labels), .iloc[] (positions), and Boolean filters
+   - **Grouping:** Can split-apply-combine data with single/multiple keys
+   - **Aggregation:** Used sum, mean, count, and custom aggregations
+   - **Output Control:** Applied reset_index() to convert grouped objects to DataFrames
+
+### Challenges Faced:
+
+- Initial confusion between merge types
+- GroupBy output formatting (fixed with `reset_index()`)
+- FutureWarning for `fillna(method=...)` (updated to `ffill()`)
+
+### Outcome:
+
+- Confident in core Pandas operations
+- Learnt how to:
+  - Clean and transform raw business data
+  - Perform complex aggregations
+  - Combine datasets intelligently
