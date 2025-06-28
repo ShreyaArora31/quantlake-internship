@@ -12,6 +12,7 @@ quantlake-internship/
 |   └── day2_python_fundamentals.ipynb
 |   └── day3_pandas_intro.ipynb
 |   └── day4_data_manipulation_1.ipynb
+|   └── day5_data_manipulation_2.ipynb
 │
 ├── projects/               # Project work during the internship
 │
@@ -21,6 +22,6 @@ quantlake-internship/
 ### 🛠️ Technologies Used
 
 **Language:** Python 3.13.3
-**Notebook:** Jupyter
+**Notebook:** Jupyter using Anaconda
 **Version Control:** Git, GitHub
 **Libraries:** pandas, numpy, matplotlib, seaborn
