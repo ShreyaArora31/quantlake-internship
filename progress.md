@@ -278,3 +278,96 @@ My key learnings were -
   - Clean and transform raw business data
   - Perform complex aggregations
   - Combine datasets intelligently
+
+## 📆 Day 5 - Pandas: Data Manipulation II - 25th June
+
+### Environment Used:
+
+- **Python:** 3.13.3
+- **Pandas:** 2.1.4
+- **Jupyter Notebook:** using Anaconda
+- **Dataset:** [Superstore Sales Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+### Files Added:
+
+- `training/day5_data_manipulation_2.ipynb`
+- Updated `progress.md`
+
+### Tasks Completed:
+
+**🔹 Task 1: Reshaping DataFrames**
+
+- Practiced reshaping techniques:
+  - `df.pivot()`: Created cross-tab views (e.g., Sales by Region & Category)
+  - `pd.pivot_table()`: With multiple aggregation functions
+  - `df.melt()`: Converted wide format to long format
+- Key learning: Pivot tables ideal for summary dashboards
+
+**🔹 Task 2: Apply Custom Functions**
+
+- Implemented transformation logic:
+  - Profit margin classification using `.apply()` with lambda
+  - Discount flagging with conditional logic
+
+**🔹 Task 3: Mapping & Replacing**
+
+- Standardized values using:
+  - `.map()`: State abbreviations mapping
+  - `.replace()`: "Consumer" → "Retail" transformation
+- Cleaned categorical data for consistency
+
+**🔹 Task 4: Combining DataFrames**
+
+- Concatenated DataFrames:
+  - Vertically with `pd.concat(axis=0)`
+  - Horizontally with `pd.concat(axis=1)`
+- Handled mismatched columns (automatic NaN filling)
+
+**🔹 Task 5: End-to-End Pipeline**
+
+Built complete data processing workflow:
+1. Raw data loading → cleaning (handled outliers/missing values)
+2. Grouped & reshaped data
+3. Added derived columns
+4. Created pivot tables for visualization
+
+### Key Observations/Learnings:
+
+1. **Reshaping Methods**:
+   - Pivot tables excel at multi-dimensional summaries
+   - Melting useful for visualization-friendly formats
+   - `reset_index()` crucial after pivoting
+
+2. **Transformation Logic**:
+   - `.apply()` versatile for row/column operations
+   - Lambda functions great for simple rules
+   - Named functions better for complex business logic
+
+3. **Data Combination**:
+   - Vertical concat for adding rows
+   - Horizontal concat requires unique indices
+   - `merge()` better for key-based joins
+
+### Challenges Faced:
+
+1. **Horizontal Concatenation**:
+   - Error: `InvalidIndexError` from duplicate indices
+   - Solution: Used `drop_duplicates()` before concat
+
+2. **Performance Classification**:
+   - Edge cases with negative profit margins
+   - Debugged with: `df['Profit Margin'].describe()`
+
+3. **Pivot Table Formatting**:
+   - Multi-index confusion
+   - Fixed with `reset_index()` and `margins_name`
+
+### Outcome:
+
+- Confident in reshaping datasets using pivot/melt
+- Comfortable applying custom business logic
+- Proficient with `.apply()`, `.map()`, and DataFrame combining
+- Prepared for complex case studies with:
+  - Multi-step transformations
+  - Business metric calculations
+  - Dashboard-ready formatting
