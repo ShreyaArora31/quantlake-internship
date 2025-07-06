@@ -371,3 +371,101 @@ Built complete data processing workflow:
   - Multi-step transformations
   - Business metric calculations
   - Dashboard-ready formatting
+
+## 📆 Day 6 - Data Visualization - 1st July
+
+### Environment Used:
+
+- **Python:** 3.13.3
+- **Matplotlib:** 3.8.4
+- **Seaborn:** 0.13.2
+- **Jupyter Notebook:** using Anaconda
+- **Dataset:** [Superstore Sales Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+### Files Added:
+
+- `training/custom_lineplot.png`
+- `training/monthly_trends.png`
+- `training/seaborn_heatmap.png`
+- Updated `progress.md`
+
+### Tasks Completed:
+
+**🔹 Task 1: Created Multiple Visualizations**
+
+- Saved 3 plots as image files:
+  1. `custom_lineplot.png`: Monthly sales and profit trends
+  2. `monthly_trends.png`: Category-wise sales over time
+  3. `seaborn_heatmap.png`: Correlation matrix of numerical features
+
+**🔹 Task 2: Learned Chart Types**
+
+- Mastered 5 essential visualization types:
+  - Line plots (trend analysis)
+  - Scatter plots (relationship visualization)
+  - Histograms (distribution analysis)
+  - Heatmaps (correlation visualization)
+
+**🔹 Task 3: Data & Features Visualized**
+
+- Key metrics visualized:
+  - Sales trends over 4 years (2014-2017)
+  - Profit margins by product category
+  - Correlations between Sales, Quantity, Discount, and Profit
+  - Outlier detection in Technology category sales
+
+### Key Observations/Learnings:
+
+1. **Tool Selection**:
+   - Matplotlib for precise control and customization
+   - Seaborn for quick statistical visualizations
+   - Use `plt.style.use()` for consistent styling
+
+2. **Visualization Best Practices**:
+   - Line plots ideal for time-series data
+   - Heatmaps perfect for correlation analysis
+   - Histograms reveal data distributions
+   - Always label axes and add titles
+
+3. **Publication Quality**:
+   - 600 DPI for journal submissions
+   - Arial font for professional look
+   - Consistent color palettes (colorblind-friendly)
+   - Proper figure sizing (9cm width for single-column)
+
+### Chart I'm Most Proud Of:
+
+**`custom_lineplot.png`** - This dual-axis line chart effectively shows:
+- Monthly sales trends (primary axis)
+- Profit margin percentages (secondary axis)
+- Clear annotation of peak sales month
+- Professional styling meeting academic standards
+
+### Challenges Faced:
+
+1. **Dual-Axis Formatting**:
+   - Secondary axis labels blending with background
+   - Solved with `ax2.spines['right'].set_color()`
+
+2. **Heatmap Annotations**:
+   - Text overlap in small cells
+   - Fixed with `annot_kws={"size": 8}`
+
+3. **Publication Export**:
+   - TIFF file size too large
+   - Optimized with `pil_kwargs={'compression': 'tiff_lzw'}`
+
+### Outcome:
+
+- Confident in selecting appropriate chart types
+- Proficient with Matplotlib/Seaborn customization
+- Able to produce publication-quality figures
+- Understand when to use:
+  - Matplotlib for full control
+  - Seaborn for quick statistical plots
+- Completed professional visualization workflow:
+  1. Data preparation
+  2. Visualization creation
+  3. Style refinement
+  4. Multi-format export
+  5. Interpretation/documentation
