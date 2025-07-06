@@ -14,6 +14,9 @@ quantlake-internship/
 |   └── day4_data_manipulation_1.ipynb
 |   └── day5_data_manipulation_2.ipynb
 |   └── day6_data_visualization.ipynb
+|   └── custom_linepplot.png
+|   └── monthly_trends.png
+|   └── seaborn_heatmap.png
 │
 ├── projects/               # Project work during the internship
 │
