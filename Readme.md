@@ -13,6 +13,7 @@ quantlake-internship/
 |   └── day3_pandas_intro.ipynb
 |   └── day4_data_manipulation_1.ipynb
 |   └── day5_data_manipulation_2.ipynb
+|   └── day6_data_visualization.ipynb
 │
 ├── projects/               # Project work during the internship
 │
