@@ -470,7 +470,7 @@ Built complete data processing workflow:
   4. Multi-format export
   5. Interpretation/documentation
 
-## 📆 Day 7 — Introduction to SQL & SELECT Queries – 6th July
+## 📆 Day 7 - Introduction to SQL & SELECT Queries - 6th July
 
 ### Environment Used:
 
@@ -517,7 +517,7 @@ Built complete data processing workflow:
    SELECT FirstName, LastName FROM employees WHERE City IN ('Calgary', 'Edmonton');
    ```
 
-### ✅ Outcome by EOD:
+### Outcome by EOD:
 
 - Learned how to query structured data using SQL
 - Practiced SELECT, WHERE, ORDER BY, LIMIT, GROUP BY
