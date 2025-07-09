@@ -469,3 +469,57 @@ Built complete data processing workflow:
   3. Style refinement
   4. Multi-format export
   5. Interpretation/documentation
+
+## 📆 Day 7 — Introduction to SQL & SELECT Queries – 6th July
+
+### Environment Used:
+
+* **Python:** 3.13.3  
+* **SQLite3:** Built-in with Python  
+* **Pandas:** 2.2.2  
+* **Jupyter Notebook:** via Anaconda  
+* **Database:** [Chinook](https://www.sqlitetutorial.net/sqlite-sample-database/)
+
+### Files Added:
+
+* `training/day7_sql_intro.ipynb`
+* Updated `progress.md`
+
+### 5 Interesting Queries I Wrote:
+
+1. Top 5 Invoice Totals:
+
+   ```sql
+   SELECT * FROM invoices ORDER BY Total DESC LIMIT 5;
+   ```
+
+2. Countries with Most Invoices:
+
+   ```sql
+   SELECT BillingCountry, COUNT(*) FROM invoices GROUP BY BillingCountry ORDER BY COUNT(*) DESC;
+   ```
+
+3. Customers with First Name Starting With 'A':
+
+   ```sql
+   SELECT * FROM customers WHERE FirstName LIKE 'A%';
+   ```
+
+4. Average Sale Per Country:
+
+   ```sql
+   SELECT BillingCountry, AVG(Total) FROM invoices GROUP BY BillingCountry;
+   ```
+
+5. Employees in Specific Cities:
+
+   ```sql
+   SELECT FirstName, LastName FROM employees WHERE City IN ('Calgary', 'Edmonton');
+   ```
+
+### ✅ Outcome by EOD:
+
+- Learned how to query structured data using SQL
+- Practiced SELECT, WHERE, ORDER BY, LIMIT, GROUP BY
+- Extracted valuable information from tabular datasets
+- Built confidence in using SQL for analytics and reporting
