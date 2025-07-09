@@ -523,3 +523,44 @@ Built complete data processing workflow:
 - Practiced SELECT, WHERE, ORDER BY, LIMIT, GROUP BY
 - Extracted valuable information from tabular datasets
 - Built confidence in using SQL for analytics and reporting
+
+## 📆 Day 8 – SQL & Data Integration – 8th July
+
+### Environment Used:
+
+- **Python:** 3.13.3  
+- **SQLite3:** Built-in with Python  
+- **Pandas:** 2.2.2  
+- **Jupyter Notebook:** using Anaconda  
+- **Database:** [Chinook Sample DB](https://www.sqlitetutorial.net/sqlite-sample-database/)
+
+### Files Added:
+
+- `training/day8_sql_integration.ipynb`
+- Updated `progress.md`
+
+### Key Observations/Learnings:
+
+1. **Complex SQL Queries**
+
+   * Subqueries with `IN` are powerful for conditional filtering
+   * Grouped aggregations help answer high-level business questions easily
+   * SQL works best for concise data retrieval and filtering logic
+
+2. **SQL vs Pandas**
+
+   * SQL is cleaner for set-based operations and filtering
+   * Pandas excels for in-memory transformation, reshaping, and chaining logic
+   * Both tools are essential in a data science workflow
+
+3. **Favorite Integration Technique**
+
+   * `pd.read_sql_query()` combined with `merge()` gives complete control
+   * Writing SQL inside Python allows reproducible, scriptable analytics pipelines
+
+### Outcome:
+
+* Performed advanced filtering and aggregation using SQL
+* Executed SQL directly from Python without Pandas
+* Simulated SQL joins using Pandas `.merge()`
+* Understood the synergy between SQL and Pandas in modern data workflows
