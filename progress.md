@@ -564,3 +564,53 @@ Built complete data processing workflow:
 * Executed SQL directly from Python without Pandas
 * Simulated SQL joins using Pandas `.merge()`
 * Understood the synergy between SQL and Pandas in modern data workflows
+
+## 📆 Day 9 – Advanced SQL Analytics & Case-Based Queries – 8th July 
+
+### Environment Used:
+
+- **Python:** 3.13.3  
+- **SQLite3:** Built-in with Python  
+- **Pandas:** 2.2.2  
+- **Jupyter Notebook:** using Anaconda  
+- **Database:** [Chinook Sample DB](https://www.sqlitetutorial.net/sqlite-sample-database/)
+
+### Files Added:
+
+- `training/day9_advanced_sql.ipynb`
+- Updated `progress.md`
+
+### Key Observations/Learnings:
+
+1. **Multi-table Joins & Aggregations**
+   - Queried total revenue and order count per customer using `JOIN` and `GROUP BY`
+   - Identified top 5 spending customers with their country using `ORDER BY` + `LIMIT`
+   - Calculated total revenue per product category by joining `tracks`, `genres`, and `invoice_items`
+
+2. **Window Functions**
+   - Used `ROW_NUMBER()` and `RANK()` to rank customer orders by amount
+   - Calculated running total of monthly sales using `SUM() OVER (PARTITION BY)`
+   - Found top 3 revenue-generating products per genre using `DENSE_RANK()`
+
+3. **CTEs (Common Table Expressions)**
+   - Created CTEs for average order value per customer to filter high-value clients
+   - Used a CTE to isolate orders in the last 3 months, then aggregated revenue
+
+4. **Business Insights**
+   - Very few products had consistent sales across late 2013
+   - Most customers had 1–2 orders only; high-spending customers were rare
+   - Product sales were sparse—highlighting the need for active-month filtering
+   - Identified products with decreasing sales using a pivot + filtering logic in Pandas
+
+5. **Challenging/Interesting Part**
+   - Most challenging: Identifying products with declining sales due to sparse data
+   - Learned to dynamically pick active months and use `.pivot_table()` instead of `.pivot()` for robustness
+   - Appreciated how SQL + Pandas together helped simulate real BI dashboard scenarios
+
+### Outcome:
+
+- Mastered writing complex multi-table queries and analytics SQL
+- Used advanced SQL features like window functions and CTEs
+- Identified business patterns such as revenue drop and top customers
+- Gained confidence in using SQL as a primary data analysis tool
+- Built analysis pipelines mixing SQL and Pandas for real-world insights
