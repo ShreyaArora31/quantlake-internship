@@ -8,6 +8,7 @@ This repo documents my daily learning, tasks and projects throughout the interns
 quantlake-internship/
 │
 ├── training/               # Daily practice notebooks
+|   └── chinook.db
 │   └── day1_python_basics.ipynb
 |   └── day2_python_fundamentals.ipynb
 |   └── day3_pandas_intro.ipynb
@@ -17,6 +18,9 @@ quantlake-internship/
 |   └── day6_custom_linepplot.png
 |   └── day6_monthly_trends.png
 |   └── day6_seaborn_heatmap.png
+|   └── day7_sql_intro.ipynb
+|   └── day8_sql_integration.ipynb
+|   └── day9_advanced_sql.ipynb
 │
 ├── projects/               # Project work during the internship
 │
