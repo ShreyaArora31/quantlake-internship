@@ -614,3 +614,87 @@ Built complete data processing workflow:
 - Identified business patterns such as revenue drop and top customers
 - Gained confidence in using SQL as a primary data analysis tool
 - Built analysis pipelines mixing SQL and Pandas for real-world insights
+
+## 📆 Credit Risk Analytics Project – 24th July
+
+### 🛠️ Environment Used:
+
+* **Python:** 3.13.3
+* **Jupyter Notebook** (via Anaconda)
+* **Power BI Desktop** (.pbix file)
+* **Excel:** Data source (`.xlsx`)
+* **Libraries:** `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+
+---
+
+### 📂 Files Added:
+
+* `Bank_Personal_Loan_Modelling.xlsx` – Raw dataset
+* `Credit Risk Analytics – Identifying Drivers of Loan Default.ipynb` – Data cleaning, EDA, modeling
+* `Credit Risk Analysis.pbix` – Interactive Power BI dashboard
+* `Credit Risk Analysis Dashboard.png` – Dashboard snapshot
+* `Credit Risk Analytics – Top 5 Insights.pdf` – Presentation slides
+
+---
+
+### 📈 Dashboard Snapshot
+
+The Power BI dashboard visualizes high-risk segments, top drivers of default, and overall customer loan behavior.
+
+![Credit Risk Dashboard](./### 📈 Dashboard Snapshot
+
+The Power BI dashboard visualizes high-risk segments, top drivers of default, and overall customer loan behavior.
+
+![Credit Risk Dashboard](./Credit%20Risk%20Analysis%20Dashboard.png)
+)
+
+---
+
+### 🔍 Key Observations & Learnings:
+
+1. **EDA & Feature Understanding**
+
+   * Identified `Income`, `Education`, and `Family` as critical features.
+   * Detected outliers in `CCAvg`, `Mortgage`, and `Income`.
+   * Classified data types (categorical vs. numerical) for proper handling.
+
+2. **Target Distribution**
+
+   * Only \~10% of customers defaulted on loans, highlighting class imbalance.
+   * High proportion of defaults were from **low income** and **non-digitally active** segments.
+
+3. **Dashboard Insights**
+
+   * **RiskSegment = High Risk** users mostly had low income and no credit card or online banking.
+   * Family size and age group (30–50) had moderate correlations with defaults.
+   * Digitally active users were more likely to take personal loans.
+
+4. **ML Insights (if applicable)**
+
+   * Applied logistic regression and decision trees to validate risk factors.
+   * Key predictors: `Income`, `Education`, `CD Account`, `Online`, `CCAvg`.
+
+---
+
+### 📈 Business Insights
+
+* **Low-income, low-education groups** are high risk — should be flagged early in loan approvals.
+* **Digital engagement (Online/CC usage)** reduces default risk — banks can promote digital tools.
+* **Customers with multiple family members or CD accounts** tend to be safer bets.
+
+---
+
+### 💡 Challenges Faced
+
+* Balancing detailed analysis within limited slide space.
+* Handling class imbalance in predictive modeling.
+* Choosing dashboard visuals that best convey risk segmentation insights.
+
+---
+
+### ✅ Outcome
+
+* Built an **end-to-end credit risk analysis project** from raw data to insights.
+* Created a clean, interactive Power BI dashboard for stakeholder storytelling.
+* Delivered a concise PDF with the **Top 5 actionable insights**.
+* Practiced working with **structured data, business KPIs, and real-world dashboards**.
