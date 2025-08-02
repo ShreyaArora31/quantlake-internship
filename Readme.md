@@ -23,6 +23,11 @@ quantlake-internship/
 |   └── day9_advanced_sql.ipynb
 │
 ├── projects/               # Project work during the internship
+|   └── Bank_Personal_Loan_Modelling.xlsx
+|   └── Credit Risk Analysis Dashboard.png
+|   └── Credit Risk Analysis.pbix
+|   └── Credit Risk Analytics - Top 5 Insights.pdf
+|   └── Credit Risk Analytics - Identifying Drivers of Loan Default.ipynb
 │
 └── progress.md             # Daily learning logs and reflections
 ```
