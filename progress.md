@@ -573,7 +573,7 @@ Built complete data processing workflow:
 - **SQLite3:** Built-in with Python  
 - **Pandas:** 2.2.2  
 - **Jupyter Notebook:** using Anaconda  
-- **Database:** [Chinook Sample DB](https://www.sqlitetutorial.net/sqlite-sample-database/)
+- **Database:** [Chinook Music Store DB](https://www.sqlitetutorial.net/sqlite-sample-database/)
 
 ### Files Added:
 
@@ -629,7 +629,7 @@ Built complete data processing workflow:
 
 ### 📂 Files Added:
 
-* `Bank_Personal_Loan_Modelling.xlsx` – Raw dataset
+* `Bank_Personal_Loan_Modelling.xlsx` – Raw dataset (https://www.kaggle.com/datasets/itsmesunil/bank-loan-modelling)
 * `Credit Risk Analytics – Identifying Drivers of Loan Default.ipynb` – Data cleaning, EDA, modeling
 * `Credit Risk Analysis.pbix` – Interactive Power BI dashboard
 * `Credit Risk Analysis Dashboard.png` – Dashboard snapshot
