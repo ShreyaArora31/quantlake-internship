@@ -641,12 +641,9 @@ Built complete data processing workflow:
 
 The Power BI dashboard visualizes high-risk segments, top drivers of default, and overall customer loan behavior.
 
-![Credit Risk Dashboard](./### 📈 Dashboard Snapshot
-
 The Power BI dashboard visualizes high-risk segments, top drivers of default, and overall customer loan behavior.
 
 ![Credit Risk Dashboard](./Credit%20Risk%20Analysis%20Dashboard.png)
-)
 
 ---
 
