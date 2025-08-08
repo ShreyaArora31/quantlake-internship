@@ -2,6 +2,13 @@
 
 This repo documents my daily learning, tasks and projects throughout the internship.
 
+### ✅ About the Internship
+
+The internship is divided into two phases:
+
+Learning Phase (Weeks 1–3): Day-wise analytics tasks and skill-building
+Project Phase (Weeks 4–6): Real-world data projects with end-to-end analysis
+
 ### 📁 Repository Structure
 
 ```
